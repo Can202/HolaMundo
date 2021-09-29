@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    background-color: #FFEF0D;
+}
+.header {
+    background-color: #8F0;
+    padding: 30px;
+    text-align: center;
+}
+.article {
+    background-color: #FFEF0D;
+    padding: 10px;
+    display:flex;
+    box-sizing: content-box;
+    justify-content: center;
+    flex-wrap: wrap;
+    height:100%;
+}
+.article__content {
+    background-color: #ecdd0a;
+    margin: .3rem;
+}
+.article__content * {
+    padding: 6px;
+}
+.content {
+    background-color: #ecdd0a;
+    height:100%;
+}
